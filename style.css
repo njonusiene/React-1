@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: auto;
+    font-family: Lato;
+    width: 100vh;
+    background: #eee;
+}
+
+img {
+    width: 170px;
+    height: 60px;
+    padding-left: 18px;
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 18px;
+    gap: 30px;
+    height: 45px;
+    background-color: #1b3340;
+    margin-bottom: 15px; 
+}
+
+#header a{
+    color: white;
+    text-decoration: none;
+}
+
+header {
+    display: grid;
+    align-content: space-around;
+    height: 300px;
+    background: #9acd32;
+    color: rgba(255, 255, 255, 0.701);
+    margin-bottom: 15px; 
+}
+
+header h1 {
+    text-align: center;
+    font-weight: 100;
+    font-size: 2.2em;
+}
+
+#main {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+#about,
+#company,
+#services {
+    background: white;
+    padding: 15px;
+    min-height: 150px;
+}
+
+#company {
+    margin: 0 15px;
+}
+
+#main h1 {
+    color: #373737eb;
+    font-size: 1.6em;
+    padding-bottom: 15px;
+}
+
+#main p {
+    color: #515151;
+}
+
+#footer {
+    background: white;
+    display: flex;
+    margin-top: 15px;
+    padding-bottom: 25px;
+}
+
+#container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#content,
+#subHeader {
+    width: 100%;
+    padding: 5px 10px;
+}
+
+#content h1,
+#subHeader h3 {
+    margin: 0;
+    padding: 10px;
+    color: #373737;
+    font-size: 1.4em;
+}
+
+#subHeader h3 {
+    font-size: 1.1em;
+}
+
+#content p,
+#subHeader p {
+    margin: 0;
+    padding: 0 10px;
+    color: #515151;
+    font-size: 0.8em;
+    line-height: 20px;
+}
+
+#navigation {
+    width: 25%;
+    padding-left: 10px;
+    
+}
+
+#navigation h3 {
+    color: #373737;
+    margin: 15px 0px;
+}
+
+#navigationText {
+    background: #dddddd;
+    margin-right: 15px;
+    padding: 5px 15px;
+}
+
+#navigationText p {
+    padding: 5px 15px;
+    color: #929599;
+    line-height: 35px;
+    font-size: 0.8em;
+}
